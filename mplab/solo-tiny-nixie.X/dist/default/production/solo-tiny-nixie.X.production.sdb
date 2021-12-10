@@ -1,0 +1,1334 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18346 ]
+[d frameptr 6 ]
+"67 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/examples/i2c1_master_example.c
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"68
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"146 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/i2c1_master.c
+[e E7152 . `uc
+I2C1_IDLE 0
+I2C1_SEND_ADR_READ 1
+I2C1_SEND_ADR_WRITE 2
+I2C1_TX 3
+I2C1_RX 4
+I2C1_RCEN 5
+I2C1_TX_EMPTY 6
+I2C1_SEND_RESTART_READ 7
+I2C1_SEND_RESTART_WRITE 8
+I2C1_SEND_RESTART 9
+I2C1_SEND_STOP 10
+I2C1_RX_ACK 11
+I2C1_RX_NACK_STOP 12
+I2C1_RX_NACK_RESTART 13
+I2C1_RESET 14
+I2C1_ADDRESS_NACK 15
+]
+"165
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"191
+[e E7170 . `uc
+I2C1_DATA_COMPLETE 0
+I2C1_WRITE_COLLISION 1
+I2C1_ADDR_NACK 2
+I2C1_DATA_NACK 3
+I2C1_TIMEOUT 4
+I2C1_NULL 5
+]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"84 C:\Pierre\MPLAB\solo-tiny-nixie.X\main.c
+[v _getHour getHour `(uc  1 e 1 0 ]
+"91
+[v _setHour setHour `(v  1 e 1 0 ]
+"96
+[v _getMinute getMinute `(uc  1 e 1 0 ]
+"103
+[v _setMinute setMinute `(v  1 e 1 0 ]
+"115
+[v _setSecond setSecond `(v  1 e 1 0 ]
+"120
+[v _blinkDot blinkDot `(v  1 e 1 0 ]
+"130
+[v _showTargetBrightness showTargetBrightness `(v  1 e 1 0 ]
+"146
+[v _timer1InterruptHandler timer1InterruptHandler `(v  1 e 1 0 ]
+"176
+[v _setHV setHV `(v  1 e 1 0 ]
+"180
+[v _rampHV rampHV `(v  1 e 1 0 ]
+"201
+[v _selectNumber selectNumber `(v  1 e 1 0 ]
+"252
+[v _main main `(v  1 e 1 0 ]
+"58 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/clc1.c
+[v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
+"58 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/cmp1.c
+[v _CMP1_Initialize CMP1_Initialize `(v  1 e 1 0 ]
+"63 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_Read1ByteRegister I2C1_Read1ByteRegister `(uc  1 e 1 0 ]
+"91
+[v _I2C1_Write1ByteRegister I2C1_Write1ByteRegister `(v  1 e 1 0 ]
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+"170
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+"58 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"167 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+"209
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+"246
+[v _I2C1_MasterRead I2C1_MasterRead `(E355  1 e 1 0 ]
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+"273
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+"283
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E7152  1 s 1 I2C1_DO_IDLE ]
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E7152  1 s 1 I2C1_DO_SEND_ADR_READ ]
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E7152  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E7152  1 s 1 I2C1_DO_TX ]
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E7152  1 s 1 I2C1_DO_RX ]
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E7152  1 s 1 I2C1_DO_RCEN ]
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E7152  1 s 1 I2C1_DO_TX_EMPTY ]
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E7152  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E7152  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E7152  1 s 1 I2C1_DO_SEND_RESTART ]
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E7152  1 s 1 I2C1_DO_SEND_STOP ]
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E7152  1 s 1 I2C1_DO_RX_ACK ]
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E7152  1 s 1 I2C1_DO_RX_NACK_STOP ]
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E7152  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E7152  1 s 1 I2C1_DO_RESET ]
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E7152  1 s 1 I2C1_DO_ADDRESS_NACK ]
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+"578
+[v _I2C1_MasterDisableRestart I2C1_MasterDisableRestart `T(v  1 s 1 I2C1_MasterDisableRestart ]
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+"615
+[v _I2C1_MasterClearBusCollision I2C1_MasterClearBusCollision `T(v  1 s 1 I2C1_MasterClearBusCollision ]
+"625
+[v _I2C1_MasterEnableIrq I2C1_MasterEnableIrq `T(v  1 s 1 I2C1_MasterEnableIrq ]
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+"52 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"68
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"82
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"88
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"58 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/pwm5.c
+[v _PWM5_Initialize PWM5_Initialize `(v  1 e 1 0 ]
+"58 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/pwm6.c
+[v _PWM6_Initialize PWM6_Initialize `(v  1 e 1 0 ]
+"74
+[v _PWM6_LoadDutyValue PWM6_LoadDutyValue `(v  1 e 1 0 ]
+"64 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"120
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"157
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"169
+[v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
+"178
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+"182
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"62 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"62 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+[s S1101 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"365 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8\pic\include\proc\pic16f18346.h
+[u S1106 . 1 `S1101 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1106  1 e 1 @11 ]
+[s S1327 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"400
+[u S1334 . 1 `S1327 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES1334  1 e 1 @12 ]
+[s S1344 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"449
+[u S1350 . 1 `S1344 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1350  1 e 1 @13 ]
+[s S1305 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"491
+[u S1314 . 1 `S1305 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES1314  1 e 1 @14 ]
+[s S277 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 BCL1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"586
+[u S286 . 1 `S277 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES286  1 e 1 @17 ]
+[s S437 . 1 `uc 1 NCO1IF 1 0 :1:0 
+`uc 1 TMR4IF 1 0 :1:1 
+`uc 1 BCL2IF 1 0 :1:2 
+`uc 1 SSP2IF 1 0 :1:3 
+`uc 1 NVMIF 1 0 :1:4 
+`uc 1 C1IF 1 0 :1:5 
+`uc 1 C2IF 1 0 :1:6 
+`uc 1 TMR6IF 1 0 :1:7 
+]
+"648
+[u S446 . 1 `S437 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES446  1 e 1 @18 ]
+"1258
+[v _TMR1L TMR1L `VEuc  1 e 1 @25 ]
+"1278
+[v _TMR1H TMR1H `VEuc  1 e 1 @26 ]
+"1298
+[v _T1CON T1CON `VEuc  1 e 1 @27 ]
+[s S1190 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 T1SYNC 1 0 :1:2 
+`uc 1 T1SOSC 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+"1320
+[s S1197 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+[u S1203 . 1 `S1190 1 . 1 0 `S1197 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES1203  1 e 1 @27 ]
+"1370
+[v _T1GCON T1GCON `VEuc  1 e 1 @28 ]
+[s S1220 . 1 `uc 1 T1GSS 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+"1390
+[s S1228 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+]
+[u S1231 . 1 `S1220 1 . 1 0 `S1228 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES1231  1 e 1 @28 ]
+"1440
+[v _TMR2 TMR2 `VEuc  1 e 1 @29 ]
+"1460
+[v _PR2 PR2 `VEuc  1 e 1 @30 ]
+"1480
+[v _T2CON T2CON `VEuc  1 e 1 @31 ]
+[s S299 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"1501
+[s S303 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S311 . 1 `S299 1 . 1 0 `S303 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES311  1 e 1 @31 ]
+"1551
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1596
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1635
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S862 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 BCL1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1747
+[u S871 . 1 `S862 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES871  1 e 1 @145 ]
+"1978
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"2294
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2339
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2378
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2440
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @273 ]
+"2492
+[v _CM1CON1 CM1CON1 `VEuc  1 e 1 @274 ]
+[s S511 . 1 `uc 1 MC1OUT 1 0 :1:0 
+`uc 1 MC2OUT 1 0 :1:1 
+]
+"2707
+[u S514 . 1 `S511 1 . 1 0 ]
+[v _CMOUTbits CMOUTbits `VES514  1 e 1 @277 ]
+"2749
+[v _FVRCON FVRCON `VEuc  1 e 1 @279 ]
+[s S1065 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"2770
+[s S1072 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+]
+[u S1077 . 1 `S1065 1 . 1 0 `S1072 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES1077  1 e 1 @279 ]
+"2933
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2978
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3017
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3945
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3995
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"4034
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"4096
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"4350
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"4858
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+[s S841 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"4880
+[u S850 . 1 `S841 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES850  1 e 1 @532 ]
+"4980
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S643 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"5013
+[s S649 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S654 . 1 `S643 1 . 1 0 `S649 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES654  1 e 1 @533 ]
+"5250
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+[s S808 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"5272
+[u S817 . 1 `S808 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES817  1 e 1 @534 ]
+"6202
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"6247
+[v _ODCONB ODCONB `VEuc  1 e 1 @653 ]
+"6286
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"6752
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"6797
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @781 ]
+"6836
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"7240
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"7290
+[v _INLVLB INLVLB `VEuc  1 e 1 @909 ]
+"7329
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"8302
+[v _TMR4 TMR4 `VEuc  1 e 1 @1045 ]
+"8322
+[v _PR4 PR4 `VEuc  1 e 1 @1046 ]
+"8342
+[v _T4CON T4CON `VEuc  1 e 1 @1047 ]
+[s S459 . 1 `uc 1 T4CKPS 1 0 :2:0 
+`uc 1 TMR4ON 1 0 :1:2 
+`uc 1 T4OUTPS 1 0 :4:3 
+]
+"8363
+[s S463 . 1 `uc 1 T4CKPS0 1 0 :1:0 
+`uc 1 T4CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T4OUTPS0 1 0 :1:3 
+`uc 1 T4OUTPS1 1 0 :1:4 
+`uc 1 T4OUTPS2 1 0 :1:5 
+`uc 1 T4OUTPS3 1 0 :1:6 
+]
+[u S471 . 1 `S459 1 . 1 0 `S463 1 . 1 0 ]
+[v _T4CONbits T4CONbits `VES471  1 e 1 @1047 ]
+"9256
+[v _PWM5DCL PWM5DCL `VEuc  1 e 1 @1559 ]
+"9292
+[v _PWM5DCH PWM5DCH `VEuc  1 e 1 @1560 ]
+"9362
+[v _PWM5CON PWM5CON `VEuc  1 e 1 @1561 ]
+"9428
+[v _PWM6DCL PWM6DCL `VEuc  1 e 1 @1562 ]
+"9464
+[v _PWM6DCH PWM6DCH `VEuc  1 e 1 @1563 ]
+"9534
+[v _PWM6CON PWM6CON `VEuc  1 e 1 @1564 ]
+[s S250 . 1 `uc 1 P5TSEL 1 0 :2:0 
+`uc 1 P6TSEL 1 0 :2:2 
+]
+"9617
+[s S253 . 1 `uc 1 P5TSEL0 1 0 :1:0 
+`uc 1 P5TSEL1 1 0 :1:1 
+`uc 1 P6TSEL0 1 0 :1:2 
+`uc 1 P6TSEL1 1 0 :1:3 
+]
+[u S258 . 1 `S250 1 . 1 0 `S253 1 . 1 0 ]
+[v _PWMTMRSbits PWMTMRSbits `VES258  1 e 1 @1567 ]
+"12460
+[v _PMD0 PMD0 `VEuc  1 e 1 @2321 ]
+"12505
+[v _PMD1 PMD1 `VEuc  1 e 1 @2322 ]
+"12567
+[v _PMD2 PMD2 `VEuc  1 e 1 @2323 ]
+"12607
+[v _PMD3 PMD3 `VEuc  1 e 1 @2324 ]
+"12669
+[v _PMD4 PMD4 `VEuc  1 e 1 @2325 ]
+"12703
+[v _PMD5 PMD5 `VEuc  1 e 1 @2326 ]
+"12812
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2329 ]
+"12952
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2331 ]
+"13049
+[v _OSCEN OSCEN `VEuc  1 e 1 @2333 ]
+"13095
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2334 ]
+"13153
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
+"14051
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @3616 ]
+"14103
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @3617 ]
+"14703
+[v _RA2PPS RA2PPS `VEuc  1 e 1 @3730 ]
+"14755
+[v _RA4PPS RA4PPS `VEuc  1 e 1 @3732 ]
+"14807
+[v _RA5PPS RA5PPS `VEuc  1 e 1 @3733 ]
+"15521
+[v _CLC1CON CLC1CON `VEuc  1 e 1 @3856 ]
+[s S359 . 1 `uc 1 LC1MODE 1 0 :3:0 
+`uc 1 LC1INTN 1 0 :1:3 
+`uc 1 LC1INTP 1 0 :1:4 
+`uc 1 LC1OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 LC1EN 1 0 :1:7 
+]
+"15554
+[s S366 . 1 `uc 1 LC1MODE0 1 0 :1:0 
+`uc 1 LC1MODE1 1 0 :1:1 
+`uc 1 LC1MODE2 1 0 :1:2 
+]
+[s S370 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 INTN 1 0 :1:3 
+`uc 1 INTP 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+[s S377 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+]
+[u S381 . 1 `S359 1 . 1 0 `S366 1 . 1 0 `S370 1 . 1 0 `S377 1 . 1 0 ]
+[v _CLC1CONbits CLC1CONbits `VES381  1 e 1 @3856 ]
+"15639
+[v _CLC1POL CLC1POL `VEuc  1 e 1 @3857 ]
+"15717
+[v _CLC1SEL0 CLC1SEL0 `VEuc  1 e 1 @3858 ]
+"15821
+[v _CLC1SEL1 CLC1SEL1 `VEuc  1 e 1 @3859 ]
+"15925
+[v _CLC1SEL2 CLC1SEL2 `VEuc  1 e 1 @3860 ]
+"16029
+[v _CLC1SEL3 CLC1SEL3 `VEuc  1 e 1 @3861 ]
+"16133
+[v _CLC1GLS0 CLC1GLS0 `VEuc  1 e 1 @3862 ]
+"16245
+[v _CLC1GLS1 CLC1GLS1 `VEuc  1 e 1 @3863 ]
+"16357
+[v _CLC1GLS2 CLC1GLS2 `VEuc  1 e 1 @3864 ]
+"16469
+[v _CLC1GLS3 CLC1GLS3 `VEuc  1 e 1 @3865 ]
+"70 C:\Pierre\MPLAB\solo-tiny-nixie.X\main.c
+[v _button1Flag button1Flag `uc  1 e 1 0 ]
+"71
+[v _button2Flag button2Flag `uc  1 e 1 0 ]
+"72
+[v _longbutton1Flag longbutton1Flag `uc  1 e 1 0 ]
+"73
+[v _longbutton2Flag longbutton2Flag `uc  1 e 1 0 ]
+"75
+[v _button1millis button1millis `us  1 e 2 0 ]
+"76
+[v _button2millis button2millis `us  1 e 2 0 ]
+"78
+[v _targetBrightness targetBrightness `us  1 e 2 0 ]
+"146 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/i2c1_master.c
+[v _i2c1_fsmStateTable i2c1_fsmStateTable `DC[16]*.37(E7152  1 e 32 0 ]
+[s S617 . 29 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.4v 1 callbackPayload 6 12 `us 1 time_out 2 18 `us 1 time_out_value 2 20 `uc 1 address 1 22 `*.4uc 1 data_ptr 1 23 `ui 1 data_length 2 24 `E7152 1 state 1 26 `E355 1 error 1 27 `uc 1 addressNackCheck 1 28 :1:0 
+`uc 1 busy 1 28 :1:1 
+`uc 1 inUse 1 28 :1:2 
+`uc 1 bufferFree 1 28 :1:3 
+]
+"165
+[v _I2C1_Status I2C1_Status `S617  1 e 29 0 ]
+"57 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"58
+[v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
+"252 C:\Pierre\MPLAB\solo-tiny-nixie.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"255
+[v main@count count `us  1 a 2 70 ]
+"254
+[v main@hour hour `uc  1 a 1 69 ]
+"253
+[v main@minute minute `uc  1 a 1 68 ]
+"333
+} 0
+"130
+[v _showTargetBrightness showTargetBrightness `(v  1 e 1 0 ]
+{
+"144
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 7 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 9 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 4 ]
+"30
+} 0
+"115 C:\Pierre\MPLAB\solo-tiny-nixie.X\main.c
+[v _setSecond setSecond `(v  1 e 1 0 ]
+{
+[v setSecond@second second `uc  1 a 1 wreg ]
+"116
+[v setSecond@secondBCD secondBCD `uc  1 a 1 21 ]
+"115
+[v setSecond@second second `uc  1 a 1 wreg ]
+[v setSecond@second second `uc  1 a 1 22 ]
+"118
+} 0
+"103
+[v _setMinute setMinute `(v  1 e 1 0 ]
+{
+[v setMinute@minute minute `uc  1 a 1 wreg ]
+"104
+[v setMinute@minuteBCD minuteBCD `uc  1 a 1 21 ]
+"103
+[v setMinute@minute minute `uc  1 a 1 wreg ]
+[v setMinute@minute minute `uc  1 a 1 22 ]
+"106
+} 0
+"91
+[v _setHour setHour `(v  1 e 1 0 ]
+{
+[v setHour@hour hour `uc  1 a 1 wreg ]
+"92
+[v setHour@hourBCD hourBCD `uc  1 a 1 21 ]
+"91
+[v setHour@hour hour `uc  1 a 1 wreg ]
+[v setHour@hour hour `uc  1 a 1 22 ]
+"94
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 8 ]
+[v ___awmod@counter counter `uc  1 a 1 7 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+[v ___awmod@dividend dividend `i  1 p 2 4 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+[v ___awdiv@dividend dividend `i  1 p 2 4 ]
+"41
+} 0
+"91 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_Write1ByteRegister I2C1_Write1ByteRegister `(v  1 e 1 0 ]
+{
+[v I2C1_Write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C1_Write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C1_Write1ByteRegister@reg reg `uc  1 p 1 11 ]
+[v I2C1_Write1ByteRegister@data data `uc  1 p 1 12 ]
+[v I2C1_Write1ByteRegister@address address `uc  1 a 1 14 ]
+"99
+} 0
+"180 C:\Pierre\MPLAB\solo-tiny-nixie.X\main.c
+[v _rampHV rampHV `(v  1 e 1 0 ]
+{
+"182
+[v rampHV@increment increment `f  1 a 4 60 ]
+"181
+[v rampHV@count count `us  1 a 2 64 ]
+"199
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 2 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 1 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 2 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 0 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 56 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 55 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 46 ]
+"70
+} 0
+"242 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 12 ]
+[v ___flsub@b b `d  1 p 4 16 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 11 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 10 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 9 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 8 ]
+"10
+[v ___fladd@b b `d  1 p 4 2 ]
+[v ___fladd@a a `d  1 p 4 6 ]
+"237
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1736 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1741 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S1744 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1736 1 fAsBytes 4 0 `S1741 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1744  1 a 4 40 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 35 ]
+[s S1813 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1816 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S1813 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1816  1 a 2 44 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 39 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 34 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 33 ]
+"8
+[v ___flmul@b b `d  1 p 4 20 ]
+[v ___flmul@a a `d  1 p 4 24 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 2 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 0 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 2 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 4 ]
+"60
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 6 ]
+[v ___flge@ff2 ff2 `d  1 p 4 10 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 26 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 19 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 24 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 31 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 30 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 23 ]
+"8
+[v ___fldiv@a a `d  1 p 4 6 ]
+[v ___fldiv@b b `d  1 p 4 10 ]
+"185
+} 0
+"96 C:\Pierre\MPLAB\solo-tiny-nixie.X\main.c
+[v _getMinute getMinute `(uc  1 e 1 0 ]
+{
+"97
+[v getMinute@minute minute `uc  1 a 1 19 ]
+"101
+} 0
+"84
+[v _getHour getHour `(uc  1 e 1 0 ]
+{
+"85
+[v getHour@hour hour `uc  1 a 1 19 ]
+"89
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 4 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 2 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 5 ]
+"51
+} 0
+"63 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_Read1ByteRegister I2C1_Read1ByteRegister `(uc  1 e 1 0 ]
+{
+[v I2C1_Read1ByteRegister@address address `uc  1 a 1 wreg ]
+"65
+[v I2C1_Read1ByteRegister@returnValue returnValue `uc  1 a 1 14 ]
+"63
+[v I2C1_Read1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C1_Read1ByteRegister@reg reg `uc  1 p 1 11 ]
+"65
+[v I2C1_Read1ByteRegister@address address `uc  1 a 1 13 ]
+"75
+} 0
+"283 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetAddressNackCallback@cb cb `*.37(E360  1 p 2 7 ]
+[v I2C1_SetAddressNackCallback@ptr ptr `*.1v  1 p 1 9 ]
+"286
+} 0
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+{
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@returnValue returnValue `E355  1 a 1 4 ]
+"176
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@address address `uc  1 a 1 3 ]
+"207
+} 0
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+{
+"555
+} 0
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+{
+"254
+} 0
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+{
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@returnValue returnValue `E355  1 a 1 10 ]
+"224
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@read read `a  1 a 1 9 ]
+"244
+} 0
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+{
+"319
+} 0
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+{
+"330
+} 0
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E7152  1 s 1 I2C1_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E7152  1 s 1 I2C1_DO_RESET ]
+{
+"499
+} 0
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E7152  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E7152  1 s 1 I2C1_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E7152  1 s 1 I2C1_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E7152  1 s 1 I2C1_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E7152  1 s 1 I2C1_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E7152  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E7152  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E7152  1 s 1 I2C1_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E7152  1 s 1 I2C1_DO_RX ]
+{
+"400
+} 0
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E7152  1 s 1 I2C1_DO_TX ]
+{
+"376
+} 0
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E7152  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E7152  1 s 1 I2C1_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E7152  1 s 1 I2C1_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E7152  1 s 1 I2C1_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+{
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"570
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 2 ]
+"571
+} 0
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+{
+[v I2C1_CallbackReturnReset@funPtr funPtr `*.4v  1 p 1 1 ]
+"528
+} 0
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+{
+"523
+} 0
+"170 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@ptr ptr `*.4v  1 p 1 1 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@ptr ptr `*.4v  1 p 1 1 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@ptr ptr `*.4v  1 p 1 1 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@ptr ptr `*.4v  1 p 1 1 ]
+"147
+} 0
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@ptr ptr `*.4v  1 p 1 1 ]
+"168
+} 0
+"273 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetDataCompleteCallback@cb cb `*.37(E360  1 p 2 7 ]
+[v I2C1_SetDataCompleteCallback@ptr ptr `*.4v  1 p 1 9 ]
+"276
+} 0
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+{
+[v I2C1_SetCallback@idx idx `E7170  1 a 1 wreg ]
+[v I2C1_SetCallback@idx idx `E7170  1 a 1 wreg ]
+[v I2C1_SetCallback@cb cb `*.37(E360  1 p 2 2 ]
+[v I2C1_SetCallback@ptr ptr `*.4v  1 p 1 4 ]
+"300
+[v I2C1_SetCallback@idx idx `E7170  1 a 1 6 ]
+"310
+} 0
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C1_SetBuffer@buffer buffer `*.4v  1 a 1 wreg ]
+[v I2C1_SetBuffer@buffer buffer `*.4v  1 a 1 wreg ]
+[v I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 2 ]
+"265
+[v I2C1_SetBuffer@buffer buffer `*.4v  1 a 1 5 ]
+"271
+} 0
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+{
+"596
+} 0
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+{
+"591
+} 0
+"209
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+{
+"211
+[v I2C1_Close@returnValue returnValue `E355  1 a 1 3 ]
+"222
+} 0
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+{
+"561
+} 0
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+{
+"643
+} 0
+"120 C:\Pierre\MPLAB\solo-tiny-nixie.X\main.c
+[v _blinkDot blinkDot `(v  1 e 1 0 ]
+{
+"128
+} 0
+"176
+[v _setHV setHV `(v  1 e 1 0 ]
+{
+[v setHV@brightness brightness `us  1 p 2 57 ]
+"178
+} 0
+"74 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/pwm6.c
+[v _PWM6_LoadDutyValue PWM6_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM6_LoadDutyValue@dutyValue dutyValue `us  1 p 2 2 ]
+"81
+} 0
+"201 C:\Pierre\MPLAB\solo-tiny-nixie.X\main.c
+[v _selectNumber selectNumber `(v  1 e 1 0 ]
+{
+[v selectNumber@digit digit `uc  1 a 1 wreg ]
+[v selectNumber@digit digit `uc  1 a 1 wreg ]
+[v selectNumber@digit digit `uc  1 a 1 4 ]
+"250
+} 0
+"50 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"66
+} 0
+"82
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"62 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"62 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"64 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"178
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"180
+} 0
+"58 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/pwm6.c
+[v _PWM6_Initialize PWM6_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"58 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/pwm5.c
+[v _PWM5_Initialize PWM5_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"88 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"102
+} 0
+"55 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"118
+} 0
+"68 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"167 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"174
+} 0
+"58 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"58 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/cmp1.c
+[v _CMP1_Initialize CMP1_Initialize `(v  1 e 1 0 ]
+{
+"67
+} 0
+"58 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/clc1.c
+[v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"52 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"70
+} 0
+"157 C:\Pierre\MPLAB\solo-tiny-nixie.X\mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"167
+} 0
+"120
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"140
+} 0
+"169
+[v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
+{
+"176
+} 0
+"182
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"185
+} 0
+"146 C:\Pierre\MPLAB\solo-tiny-nixie.X\main.c
+[v _timer1InterruptHandler timer1InterruptHandler `(v  1 e 1 0 ]
+{
+"174
+} 0
